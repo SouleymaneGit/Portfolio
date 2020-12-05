@@ -1,0 +1,101 @@
+
+body{
+    background-color: rgb(139, 168, 100); 
+}
+
+#header{
+ height: 100px;
+/* background-color: bisque; */
+ display: flex;
+ 
+}
+#main{
+  min-height: 500px;
+  display: flex;
+}
+
+#introduction{
+    /*background-color: chartreuse; */
+    flex: 3;
+    display: block;
+    padding: 30px;
+   
+}
+p{
+    
+    font-size: 20px;
+}
+.contener{
+    flex: 1;
+    min-height: 300px;
+   /* background-color: azure;*/
+    margin: 40px;
+   
+}
+
+.icon{
+  /*  background-color:aquamarine;*/
+    flex: 1;
+    padding: 20px;
+}
+.menu{
+    /*background-color: blueviolet;*/
+    flex: 3;
+    display: inline;
+    
+}
+
+ul{
+    display: flex;
+}
+li{
+    flex: 1;
+    list-style: none;
+    
+}
+li a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px;
+    text-decoration: none;
+    font-size: 17px;
+}
+li a:hover {
+    color:rgb(106, 40, 172);;
+}
+
+.icone{
+    height: 40px;
+    width: 30px;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+}
+#about{
+    display: flex;
+    /*background-color: aquamarine;*/
+}
+#profilimage{
+    margin-top: 110px;
+}
+
+#picture{
+    flex: 1;
+    margin: 10px;
+   /* background-color: bisque;*/
+    display: block;
+   
+}
+#apod{
+    height: 90%;
+    /*background-color: gray;*/
+    
+}
+#project{
+    height: 10%;
+    /*background-color:goldenrod;*/
+}
