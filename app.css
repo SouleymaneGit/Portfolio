@@ -28,7 +28,7 @@ p{
 .contener{
     flex: 1;
     min-height: 300px;
-   /* background-color: azure;*/
+   /*background-color: azure; */
     margin: 40px;
    
 }
@@ -92,10 +92,10 @@ h1{
 }
 #apod{
     height: 80%;
-    /*background-color: gray;*/
+    background-color: gray;
     
 }
 #project{
     height: 20%;
-    /*background-color:goldenrod;*/
+    background-color:goldenrod;
 }
